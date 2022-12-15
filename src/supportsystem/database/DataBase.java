@@ -16,7 +16,7 @@ public class DataBase {
 
     private final String DATABASE_URL = "jdbc:mysql://localhost:3306/infomil";
     static final String USERNAME = "root";
-    static final String PASSWORD = "";
+    static final String PASSWORD = "root";
 
     public DataBase(String url, String userName, String password) {
         this.url = url;
